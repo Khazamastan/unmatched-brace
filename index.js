@@ -54,11 +54,11 @@ function printToScreen(bool, char, index, type) {
     if(type && type == "close"){
       answer.innerHTML = `Error!, 
         closing bracket <span class="bold">${(char)}</span> at 
-        <span class="bold">${index}</span> has unmatching bracket.`;    
+        <span class="bold">${index+1}</span> has unmatching bracket.`;    
     }else if(char){
       answer.innerHTML = `Error!, 
         opening bracket <span class="bold">${(char)}</span> at 
-        <span class="bold">${index}</span> has unmatching bracket.`;
+        <span class="bold">${index+1}</span> has unmatching bracket.`;
     }else{
       answer.innerHTML = `<span class="bold">Your code is not valid!</span>`;
     }
