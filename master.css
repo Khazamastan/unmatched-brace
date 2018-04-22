@@ -41,7 +41,7 @@ textarea[type=text] {
   height: 160px;
   margin-bottom: 10px;
   padding: 5px;
-  text-align: center;
+  text-align: left;
   width: 400px;
 }
 
